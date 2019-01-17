@@ -1,9 +1,10 @@
-    编号: gxip-0004
+    编号: gxip-0003
     标题: 收款码URI方案
     作者: 陈鲁勇(louie@bepal.pro)
     状态: 草稿
     类型: Standard
     时间: 2019年01月17日
+    话题: https://github.com/gxchain/gxips/issues/4
 
 # 简介
 该方案引自 [bip-0021.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki)，用于进行币种支付的 `URI` 方案。
@@ -21,7 +22,6 @@
 3. URLEncoder后的文本生成收款二维码
 
 采用类 `URL` 格式，格式如下：
-
 ```
 protocol:address?key=value&key1=value1
 ```
@@ -64,14 +64,3 @@ gxchain:bepal?label=BEPAL%20Pro%20S&amount=20.3&symbol=GXC
 [bip-0021.mediawiki - URI方案](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki) 
 
 [bip-0072.mediawiki - 支付协议的uri扩展](https://github.com/bitcoin/bips/blob/master/bip-0072.mediawiki) 
-
-
-
-
-
-
-
-
-
-
-
